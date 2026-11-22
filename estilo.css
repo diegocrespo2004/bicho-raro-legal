@@ -1,0 +1,26 @@
+:root {
+  --noche: #1a1328;
+  --panel: #2a2140;
+  --crema: #f6ecd7;
+  --suave: #cbbfa6;
+  --oro: #ffcc4d;
+  --verde: #6bd26b;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--noche);
+  color: var(--crema);
+  font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { color: var(--oro); font-size: 1.9rem; line-height: 1.2; margin: 0 0 4px; }
+h2 { color: var(--verde); font-size: 1.2rem; margin: 32px 0 8px; }
+p, li { color: var(--crema); }
+.fecha { color: var(--suave); margin: 0 0 24px; }
+a { color: var(--oro); }
+table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.95rem; }
+th, td { text-align: left; vertical-align: top; padding: 8px; border: 2px solid #0f0b18; background: var(--panel); }
+th { color: var(--oro); }
+nav { margin-top: 40px; color: var(--suave); }
